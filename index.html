@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leader Board Bootstrap</title>
+    <!-- Font Awesome Kits -->
+    <script
+      src="https://kit.fontawesome.com/0442be25ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/icons/logo.png"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <!-- Custom Styles -->
+    <style>
+      a {
+        text-decoration: none;
+        color: #562eff;
+      }
+      .duration {
+        padding: 3px 6px;
+        font-weight: bold;
+        border-radius: 15px;
+        background-color: #ffe4e8;
+        color: #ff4a60;
+      }
+      .filled {
+        color: #ffc014;
+      }
+      .empty {
+        color: #aeaeae;
+        opacity: 0.25;
+      }
+    </style>
+  </head>
+  <body style="background-color: #e5e5e5">
+    <!-- Heaader Styling -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: #562eff"
+      >
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#"
+            ><img
+              src="images/icons/logo.png"
+              alt=""
+              width="41"
+              height="51"
+              class="d-inline-block align-text-top"
+            />
+            <span class="ms-2">Idea</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Works</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <img
+                    src="images/icons/profile.png"
+                    alt=""
+                    width="51"
+                    height="51"
+                    class="d-inline-block align-text-top"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Top Container -->
+      <div class="container p-5 my-4 rounded" style="background-color: white">
+        <!-- Top Player Section -->
+        <h3 class="mb-5" style="color: #562eff">Top Players</h3>
+        <div class="row gy-5 pb-4">
+          <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+            <img
+              src="images/players/player-1.png"
+              width="56"
+              height="56"
+              alt=""
+            />
+            <h5 class="ms-3">John Doe</h5>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+            <img
+              src="images/players/player-2.png"
+              width="56"
+              height="56"
+              alt=""
+            />
+            <h5 class="ms-3">James Morgan</h5>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+            <img
+              src="images/players/player-3.png"
+              width="56"
+              height="56"
+              alt=""
+            />
+            <h5 class="ms-3">William Howlett</h5>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+            <img
+              src="images/players/player-4.png"
+              width="56"
+              height="56"
+              alt=""
+            />
+            <h5 class="ms-3">Jason Bourne</h5>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+            <img
+              src="images/players/player-5.png"
+              width="56"
+              height="56"
+              alt=""
+            />
+            <h5 class="ms-3">Patrick Stuart</h5>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+            <img
+              src="images/players/player-6.png"
+              width="56"
+              height="56"
+              alt=""
+            />
+            <h5 class="ms-3">Labiosa Fergusson</h5>
+          </div>
+        </div>
+        <hr />
+        <!-- Top Blogs Section -->
+        <div class="my-3">
+          <h3 class="my-5" style="color: #562eff">Top Blogs</h3>
+          <div class="row gy-5">
+            <div class="col-lg-6 d-flex">
+              <div class="row">
+                <div class="col-md-auto">
+                  <img
+                    src="images/blogs/blog-1.png"
+                    width="177px"
+                    height="117px"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-md-6 p-2">
+                  <h3>13 of My Favorite UI/UX Goodies</h3>
+                  <p>by <a href="#">Danny Sapio</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex">
+              <div class="row">
+                <div class="col-md-auto">
+                  <img
+                    src="images/blogs/blog-2.png"
+                    width="177px"
+                    height="117px"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-md-6 p-2">
+                  <h3>UI cheat sheet: list vs grids</h3>
+                  <p>by <a href="#">Tess Gadd</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex">
+              <div class="row">
+                <div class="col-md-auto">
+                  <img
+                    src="images/blogs/blog-3.png"
+                    width="177px"
+                    height="117px"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-md-6 p-2">
+                  <h3>7 typography tips for interface design</h3>
+                  <p>by <a href="#">Jeremiah Lam</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex">
+              <div class="row">
+                <div class="col-md-auto">
+                  <img
+                    src="images/blogs/blog-4.png"
+                    width="177px"
+                    height="117px"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-md-6 p-2">
+                  <h3>Your logo is copied</h3>
+                  <p>by <a href="#">Ferdinand Vogler</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Courses Section -->
+      <div class="container p-5 my-4 rounded" style="background-color: white">
+        <h3 class="mb-5" style="color: #562eff">Top Players</h3>
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <img
+              src="images/courses/course-1.png"
+              width="224px"
+              height="104px"
+              alt=""
+            />
+            <div class="row">
+              <div class="col-md-10">
+                <h4 class="my-3">React-The Complete Guide 2020</h4>
+                <a style="color: #ff4a60" href="#">Reed Krakoff</a>
+                <div class="ratings-body d-flex align-items-center">
+                  <div class="ratings">
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star empty"></i>
+                    4.3
+                  </div>
+                  <div class="duration">
+                    <i class="far fa-clock"></i>
+                    1:30 hr
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="images/courses/course-2.png"
+              width="224px"
+              height="104px"
+              alt=""
+            />
+            <div class="row">
+              <div class="col-md-10">
+                <h4 class="my-3">PowerPoint-The Complete Guide</h4>
+                <a style="color: #ff4a60" href="#">Walter Scott</a>
+                <div class="ratings-body d-flex align-items-center">
+                  <div class="ratings">
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star empty"></i>
+                    4.3
+                  </div>
+                  <div class="duration">
+                    <i class="far fa-clock"></i>
+                    1:30 hr
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="images/courses/course-1.png"
+              width="224px"
+              height="104px"
+              alt=""
+            />
+            <div class="row">
+              <div class="col-md-10">
+                <h4 class="my-3">The Complete JavaScript Course</h4>
+                <a style="color: #ff4a60" href="#">Reed Krakoff</a>
+                <div class="ratings-body d-flex align-items-center">
+                  <div class="ratings">
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star empty"></i>
+                    4.3
+                  </div>
+                  <div class="duration">
+                    <i class="far fa-clock"></i>
+                    1:30 hr
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- Attribution -->
+      <div class="attribution text-center mt-5 pt-5">
+        Challenge by
+        <a
+          href="https://web.programming-hero.com/"
+          target="_blank"
+          class="text-purple-500 fw-bold text-decoration-none"
+          >Programming Hero</a
+        >. Coded by
+        <a
+          href="https://github.com/moeen-mahmud"
+          target="_blank"
+          class="text-purple-500 fw-bold text-decoration-none"
+          >Moeen Mahmud</a
+        >.
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
